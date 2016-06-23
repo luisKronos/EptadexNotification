@@ -10,6 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     Button btnNoti;
@@ -43,6 +44,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         NotificationManager manager = (NotificationManager)getSystemService(this.NOTIFICATION_SERVICE);
         manager.notify(0,builder.build());
+        Toast.makeText(this, "sdfjsd",Toast.LENGTH_LONG).show();
     }
 }
 
