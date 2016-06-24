@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnNoti = (Button)findViewById(R.id.btnNoti);
         
         btnNoti.setOnClickListener(this);
-        //;)
+        //;)!!!
     }
 
     @Override
